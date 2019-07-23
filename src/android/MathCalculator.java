@@ -5,6 +5,7 @@ import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import android.util.Log;
 
 /**
  * This class echoes a string called from JavaScript.
@@ -28,6 +29,8 @@ public class MathCalculator extends CordovaPlugin {
             try{
                 int p1 = Integer.parseInt(args.getJSONObject(0).getString("param1"));
                 int p2 = Integer.parseInt(args.getJSONObject(0).getString("param2"));
+
+                Log.d("TEST_TAG", "p1 + p2 "+ (p1+p2) );
 
                 callback.success("" + (p1+p2)); 
 
