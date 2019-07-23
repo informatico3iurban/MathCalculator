@@ -12,5 +12,6 @@
     "Ionic"
   ],
   "author": "Salvador",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

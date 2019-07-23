@@ -1,8 +1,7 @@
-package cordova-plugin-mathcalculator;
+package com.example;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
