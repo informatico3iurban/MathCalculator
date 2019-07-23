@@ -14,7 +14,7 @@ public class MathCalculator extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if(action.equals("add")){
-            this.add(args, callback);
+            this.add(args, callbackContext);
             return true;
         }else if(action.equals("substract")){
             this.substract(args, callbackContext);
